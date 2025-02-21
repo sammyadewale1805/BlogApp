@@ -1,0 +1,12 @@
+{
+  "compilerOptions": {
+    "target": "ES6",
+    "module": "commonjs",
+    "outDir": "./dist",
+    "strict": true,
+    "esModuleInterop": true,
+    "useUnknownInCatchVariables": false,
+  },
+  "include": ["source/**/*"],
+  "exclude": ["node_modules"]
+}
