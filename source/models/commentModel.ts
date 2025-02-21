@@ -2,8 +2,8 @@ import { Schema, model, Document, Types } from 'mongoose';
 
 export interface IComment extends Document {
   content: string;
-  post: Types.ObjectId; // Reference to the post
-  author: Types.ObjectId; // Reference to the user
+  post: Types.ObjectId;
+  author: Types.ObjectId;
   createdAt: Date;
   updatedAt: Date;
 }
